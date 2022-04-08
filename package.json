@@ -15,5 +15,9 @@
     "scripts": {
         "watch": "tsc -watch",
         "test": "jest --env=node --colors --coverage test"
+    },
+    "dependencies": {
+        "@types/lodash": "^4.14.181",
+        "lodash": "^4.17.21"
     }
 }
